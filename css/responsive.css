@@ -1,0 +1,498 @@
+/* only ipad 1024 and bigger screen landscape screen */
+@media only screen and (min-width: 1024px) {
+	#mainmenu > ul { display: flex !important; }
+	.filter-categories .accordion-databox { display: block !important; }
+}
+
+/*==========================================================================================================*/
+@media only screen and (max-width: 1440px) {
+	p { font-size: 20px; }
+	#header { padding: 15px 0; }
+	#mainmenu, .header-contact a, #header.sticky #mainmenu, #header.sticky .header-contact a span, #header.sticky .header-contact a, #header.sticky .header-contact a i { font-size: 16px; }
+	#mainmenu > ul > li { margin-left: 5px; }
+	#logo { width: 250px; }
+	.header-contact a i { margin-right: 10px; font-size: 20px; }
+	.header-contact a span { font-size: 16px; padding-left: 10px; }
+	.car-more-sec .car-more-details .inner {left: 0; box-shadow: -5px 0px 5px rgb(0 0 0 / 20%); max-width: 100%; padding: 20px;}
+	.car-more-sec.left-text .car-more-details .inner { right: 0; box-shadow: 5px 0px 5px rgb(0 0 0 / 20%);}
+	.car-more-sec { align-items: stretch; }
+	.car-more-sec .car-more-details .inner { height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+	.car-more-sec .car-more-details .inner p { font-size: 16px; }
+	.hero-img-sec { margin-top: -116px; display: flex; align-items: center; justify-content: center; padding-top: 130px; padding-bottom: 80px; }
+	.hero-img-sec::before { height: 600px; }
+	.hero-inner .hero-details h1 {font-size: 50px;}
+	.hero-inner .hero-details h3 {font-size: 30px;}
+	.find-car-block { padding: 20px; max-width: 550px; }
+	.car-selection-filter { grid-gap: 5px; }
+	.view-our-stock-blocks { grid-template-columns: repeat(2, 1fr); }
+	.view-stock-details h3 { font-size: 36px; margin-bottom: 20px; }
+	.view-our-stock-blocks .view-stock-details { max-width: 100%; }
+	.selection-stock-sec {padding-top: 50px;}
+	.stock-car-details { padding: 20px 0; }
+	.stock-car-details h4 {font-size: 24px;}
+	.stock-car-details h4.price { margin: 20px 0; }
+	.stock-car-details p { flex: 1;}
+	.selection-stock-sec::before { height: 230px; }
+	.car-more-sec .car-more-details .inner h2 { font-size: 30px; margin-bottom: 20px; }
+	.stock-car-details .view-car { font-size: 16px; padding: 10px 15px; }
+	.stock-car-details ul {margin-top: 10px;}
+	.brands-sec ul.brands-inner { padding: 40px; }
+	.brands-sec ul.brands-inner li { padding: 0 50px; }
+	.latest-news-sec { padding: 60px 0; }
+	.news-block .news-inner { padding: 20px; }
+	.news-block .news-inner h3 { font-size: 22px; margin-bottom: 5px; }
+	.news-block .news-inner p { font-size: 18px; margin-bottom: 20px; }
+	.news-block .news-inner a.read-more { font-size: 18px; } 
+	.selection-stock-blocks { grid-gap: 20px; }
+	.top-head-blocks { grid-template-columns: repeat(2, 1fr); padding: 80px 0 50px; }
+	.top-head-details h1 { font-size: 44px; }
+	.main-title h2 { font-size: 40px; }
+	.number-of-vehicles-sec .main-title h2 { margin-bottom: 60px; }
+	.listing-sec { grid-gap: 20px 30px; }
+	.search-suggestion ul li a { padding: 6px 20px; }
+	.filter-reset { margin-bottom: 20px; }
+	.pagination ul { margin: 50px 0; }
+	.search-fil-block input { height: 48px; }
+	.search-suggestion ul { margin: 20px 0; }
+	.main-listing .selection-stock-blocks { grid-gap: 20px; }
+	.only-title .top-head-blocks, .ready-for-you-sec { padding: 70px 0; }
+	.about-x-centrum-sec h2 { font-size: 64px; }
+	.title-para-sec { padding: 60px 0; }
+	.title-para-sec h2 { font-size: 38px; }
+	.ready-for-you-sec .main-title h2 { font-size: 38px; margin-bottom: 30px; }
+	.team-members { padding: 0 0px 10px; grid-gap: 20px 40px; }
+	.team-members .member img { max-width: 250px; }
+	.member-details h3 { font-size: 32px; }
+	.member-details span { margin-bottom: 10px; }
+	.service-page-banner { min-height: 600px;}
+	.service-detail-sec { padding-bottom: 100px; margin-top: -184px;}
+	.service-detail-sec .title-block { padding: 40px 20px 0; min-height: 186px; }
+	.service-detail-sec .title-block h2 { font-size: 56px;}
+	.service-detail-sec .service-detail-row { margin-top: 150px; }
+	.service-detail-row .service-desc .service-info { padding: 20px;}
+	.service-offer-sec .service-offer-row { min-height: inherit;}
+	.service-offer-row .offer-title-block { min-width: 300px;}
+	.service-offer-row .offer-title-block h3 { font-size: 44px;}
+	.product-details-sec { padding: 60px 0; }
+	.product-details-block { margin-top: -200px; }
+	.product-details-inner {grid-gap: 30px 50px;}
+	.product-details-block .inner {padding: 70px 40px;}
+	.product-details-block .inner h2 { font-size: 38px; }
+	.product-details-block .inner li { font-size: 18px; }
+	.product-details-block .inner ul { margin: 20px 0; }
+	.product-details-block .inner h4.price, .more-pro-details .main-title h2 { font-size: 44px; margin-bottom: 20px; }
+	 .product-details-block .inner .product-contact span, .product-details-block .inner .product-contact a { font-size: 20px; }
+	.product-details-block .inner h4.price::before { height: 70px; left: -50px; }
+	.more-pro-details { padding: 50px 0 0; }
+	.more-pro-details .wrap { padding-bottom: 50px; }
+	.specification-details { grid-gap: 20px; }
+	.specification-details table { min-width: 320px; }
+	.offer-banner-slide .owl-nav { padding: 0 30px; }
+	.offer-banner-slide .owl-nav button.owl-prev::before, .offer-banner-slide .owl-nav button.owl-next::before { font-size: 30px; font-weight: bold; }
+	.product-details-block .inner { padding: 40px; }
+	.product-details-block .inner h4.price, .more-pro-details .main-title h2 { font-size: 38px; margin-bottom: 20px; }
+	.product-title-desc h2 { font-size: 34px; }
+	.offer-page-banner .offer-bg-img { height: calc(100vh - 115px); }
+	.service-detail-sec.service-detail-info-sec { margin-top: -110px; position: relative; padding-bottom: 130px; }
+	.service-detail-sec.service-detail-info-sec .title-block { min-height: 110px; padding: 30px 0 0; }
+	.service-detail-sec.service-detail-info-sec .title-block h2 { font-size: 44px; }
+	.service-detail-info-block .top-desc p { font-size: 20px; padding: 30px 0; }
+	.contact-form-sec { margin-top: -180px; }
+	.contact-sec { padding: 70px 0 100px; }
+	.contact-details-form { padding: 30px; }
+	.contact-details-form h2 { font-size: 36px; margin-bottom: 10px; }
+	.contact-blocks .contact-details h2 { font-size: 50px; margin-bottom: 20px; }
+	.contact-blocks .contact-details h4 { font-size: 30px; margin-bottom: 30px; }
+	.contact-blocks .contact-details h4 a { padding-left: 10px; }
+	.contact-blocks .contact-details h5, .contact-blocks .add-con-details p, .contact-blocks .add-con-details a { font-size: 22px; }
+	.contact-blocks .add-con-details { margin-bottom: 10px; }
+	.quote-sec { padding: 50px 0; }
+	.quote-sec h2 { font-size: 30px; }
+	.mb-70 { margin-bottom: 50px; }
+	.service-detail-banner .detail-banner-row h1 { font-size: 64px; }
+	.news-inner-blocks .news-inner-block .inner { padding: 30px; }
+	.news-inner-blocks .news-inner-block .inner a h3 { margin-bottom: 15px; font-size: 36px; }
+	.news-desc.title-para-sec { padding: 0 0 60px; }
+	.service-detail-sec.news-detail-sec { padding-bottom: 60px;}
+	.service-detail-sec.news-detail-sec .title-block { padding: 30px 30px 0; margin-bottom: 60px;}
+	.news-detail-sec .news-detail-info-block p { font-size: 20px;}
+	.contact-link-row { grid-gap: 40px;}
+	.contact-link-row .contact-info .contact-icon { font-size: 54px;}
+	.contact-link-row .contact-data { font-size: 22px;}
+	.contact-sec .contact-blocks .contact-para { font-size: 22px;}
+	.pop-contentbox { padding: 40px 60px;}
+}
+
+/*==========================================================================================================*/
+@media only screen and (max-width: 1023px) {
+	body { min-width:320px; }
+	img{ max-width: 100%; width:auto; height:auto; }
+	.wrap { width:auto; padding:0 20px; }
+	.buttonset .col a { margin:0 5px 8px 0; }
+	.default-grid.cols4 .col { width:50%; }
+	.cols2.default-grid.tab-grid .col { width:100%; }
+	.image-block figure { width:45%; }
+
+	/* #header { position:relative; } */
+	#mainmenu > ul { display:none; position:absolute; left:0; width:100%; top:100%; background: var(--mid-black); z-index:5; }
+	#mainmenu ul li { float:none; margin:0; padding:0; border-bottom: solid 1px var(--black); }
+	#mainmenu ul li a { padding:8px 15px; display:block; color: #abaeae; border-radius: 0; }
+	#mainmenu ul li a:after { display:none; }
+	#mainmenu li.active a, #mainmenu li a:hover {color: var(--gold); background-color: var(--black);}
+	
+	/* Responsive Menu line icon*/
+	#menu { display: flex; align-items: center; }
+	.menulines-button { padding:0; cursor: pointer; user-select: none; text-transform:uppercase; font-size:16px; color:#fff; text-decoration:none; }
+	.menulines-button em { font-style:normal; font-weight:bold; margin-left:10px; }
+	.menulines-button:hover { text-decoration:none; }
+	.menulines { display: inline-block; width: 20px; height: 3px; background: #fff; position: relative; margin: 9px 0; -moz-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); -ms-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); -webkit-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); opacity:1; }
+	.menulines:before, .menulines:after { display: inline-block; width:20px; height: 3px; background: #fff; position: absolute; left: 0; content:''; -moz-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); -ms-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); -webkit-transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); transition:all 550ms cubic-bezier(0.450, 1.000, 0.320, 1.000); -webkit-transform-origin: 0.28571rem center; -moz-transform-origin: 0.28571rem center; -ms-transform-origin: 0.28571rem center; transform-origin: 0.28571rem center; }
+	.menulines:before { top: 7px; }
+	.menulines:after { top: -7px; }
+	.menuopen .menulines { background:none; }
+	.menuopen .menulines:before, .menuopen .menulines:after {  -webkit-transform-origin: 50% 50%;  -moz-transform-origin: 50% 50%;  -ms-transform-origin: 50% 50%; transform-origin: 50% 50%; top: 0; } 
+	.menuopen .menulines:before { -webkit-transform: rotate3d(0, 0, 1, 45deg); transform: rotate3d(0, 0, 1, 45deg); } 
+	.menuopen .menulines:after {  -webkit-transform: rotate3d(0, 0, 1, -45deg); transform: rotate3d(0, 0, 1, -45deg); }
+	.header-row {justify-content: flex-start;}
+	#logo {order: 1;}
+	#mainmenu {order: 2; padding-left: 15px; }
+	.header-contact {order: 1; margin-left: auto;}
+	.header-contact a, #header.sticky  .header-contact a {font-size: 16px;}
+	.header-contact a span { padding-left: 10px; }
+	.header-contact a i {font-weight: 500;}
+	#mainmenu, #header.sticky #mainmenu { font-size: 15px; }
+	#footer { padding: 50px 0; }
+	/* New CSS Start */
+	.hero-inner { flex-wrap: wrap; }
+	.hero-details { width: 100%; margin-bottom: 20px; }
+	.find-car-block {max-width: 100%;}
+	.hero-img-sec::before { height: 100%; }
+	.hero-inner .hero-details h1 br { display: none; }
+	.car-selection-filter .dropdown { max-width: 100%; }
+	.selection-stock-sec::before { display: none; }
+	.main-title h2 { font-size: 32px; margin-bottom: 30px; }
+	.selection-stock-sec .main-title h2 { margin-bottom: 30px; }
+	.selection-stock-blocks { grid-template-columns: repeat(2, 1fr); }
+	.stock-car-details { padding: 20px 0 0; }
+	.news-block .news-inner p {font-size: 16px;}
+	.car-more-sec .car-more-details .inner h2 { font-size: 26px; }
+	.view-stock-details h3 { font-size: 28px; margin-bottom: 10px; }
+	p { font-size: 16px; }
+	.view-our-stock-blocks .view-stock-details .button { margin-top: 0; max-width: 250px; }
+	.listing-sec { grid-template-columns: auto; }
+	.listing-sec .sidebar, .listing-sec .main-listing { width: 100%;}
+	.top-head-details { text-align: left; }
+	.top-head-details h1 { font-size: 32px; }
+	.top-head-details h1::after { left: 0; right: auto; width: 100%; max-width: 100%;}
+	.top-head-blocks { grid-gap: 30px; padding: 50px 0 30px; }
+	.listing-sec .sidebar {padding-top: 0;}
+	.number-of-vehicles-sec .main-title h2 { margin-bottom: 30px; }
+	.team-members { grid-template-columns: repeat(1, 1fr); }
+	.only-title .top-head-blocks .top-head-details { text-align: center; }
+	.only-title .top-head-blocks, .ready-for-you-sec, .title-para-sec { padding: 40px 0; }
+	.about-x-centrum-sec h2 { font-size: 52px; }
+	.title-para-sec h2 { font-size: 32px; }
+	.team-members .member { align-items: center;}
+	.member-details { padding: 20px 0; }
+	.member-details h3 {
+		font-size: 26px;
+	}
+	.team-members .member img { max-width: 100%; }
+	.categories .accordion-databox { display: none; margin-top: 20px; }
+	.categories .accordion-databox .accordion-row h5:after { right: 7px; }
+	/* New CSS End */
+
+	.service-page-banner { min-height: 400px;}
+	.service-detail-sec { padding-bottom: 40px; margin-top: 0;}
+	.service-detail-sec .title-block { max-width: inherit; margin: 0 auto 40px; min-height: inherit;}
+	.service-detail-sec .title-block h2 { font-size: 36px;}
+	.service-detail-sec .service-detail-row { grid-gap: 20px; margin-top: 50px; }
+	.service-desc .service-info p { font-size: 14px; }
+	.service-detail-row .service-desc { padding: 0; margin-top: 0;}
+	.service-detail-row .service-desc .service-info { padding: 20px 0;}
+	.service-desc .service-info h4 { font-size: 22px; margin-bottom: 10px;}
+	.service-offer-row .offer-title-block { min-width: 200px;}
+	.service-offer-row .offer-title-block h3 { font-size: 34px;}
+	.service-offer-slide .owl-nav { right: 20px; bottom: 10px;}
+	.service-offer-slide .owl-nav button.owl-prev, .service-offer-slide .owl-nav button.owl-next { width: 30px; height:30px; font-size: 15px; margin-right: 10px;}
+	.service-offer-slide .owl-nav button:last-child { margin-right: 0;}
+	.service-offer-sec { padding-bottom: 0;}
+	.product-details-block { margin-top: 0; }
+	.product-title-desc h2 { font-size: 30px; }
+	.product-details-block .inner h4.price::before { display: none; }
+	.offer-page-banner .offer-bg-img { height: auto; }
+	.offer-banner-slide .owl-nav { padding: 0 20px; }
+	.product-details-block .inner h2 { font-size: 34px; margin-bottom: 10px; }
+	.specification-details { grid-template-columns: repeat(2, 1fr); }
+	.specification-details .specify:nth-child(3) { grid-area: 2 / 1 / 3 / 3; grid-row: 1; }
+	.specification-details .specify:nth-child(3) figure { padding-top: 30px;  max-width: 400px; margin: 0 auto; }
+	.tech-per-sec .specification-details { grid-template-columns: repeat(2, 1fr); }
+	.tech-per-sec .specification-details .specify { max-width: 100%; }
+	.product-details-block .inner h4.price, .more-pro-details .main-title h2 { font-size: 32px; margin-bottom: 10px; }
+	.lease-details p { font-size: 16px; }
+	.more-pro-details { padding: 30px 0 0; }
+	.more-pro-details .wrap { padding-bottom: 30px; }
+	.product-details-block .inner ul { margin: 10px 0; }
+	.product-details-block .inner li { font-size: 15px; }
+	.product-details-block .inner p { margin-bottom: 10px; }
+	.product-details-block .inner .product-contact span { margin-bottom: 10px; }
+	.product-details-block .inner .product-contact span, .product-details-block .inner .product-contact a { font-size: 16px; }
+	.product-details-block .inner { padding: 30px; }
+	.product-details-sec { padding: 40px 0; }
+	.lease-sec .lease-details .interested { margin-top: 20px; }
+	.more-pro-details .main-title h2 i { font-size: 26px; }
+	.product-details-inner { grid-gap: 30px; }
+	.service-detail-sec.service-detail-info-sec .title-block { min-height: inherit; margin-bottom: 0; border-radius: 0; }
+	.service-detail-sec.service-detail-info-sec { margin-top: 0; padding-bottom: 10px; }
+	.service-detail-info-block .top-desc p { font-size: 16px; }
+	.service-detail-sec.service-detail-info-sec .title-block h2 { font-size: 36px; }
+	.service-detail-sec.service-detail-info-sec:after { display: none; }
+	.contact-form-sec { margin-top: 0; }
+	.service-page-banner.service-detail-banner { min-height: 500px; }
+	.contact-blocks { grid-template-columns: auto; }
+	.add-con-sec { display: grid; grid-template-columns: repeat(2, 1fr); margin-bottom: 20px; }
+	.contact-sec { padding: 50px 0 60px; }
+	.contact-blocks .contact-details { padding-right: 0; width: 100%; }
+	.contact-form-sec { max-width: 100%; }
+	.news-inner-blocks { grid-gap: 20px; }
+	.news-inner-blocks .news-inner-block { box-shadow: 0 5px 10px rgb(0 0 0 / 15%); }
+	.news-inner-blocks .news-inner-block img { max-height: 180px; }
+	.news-inner-blocks .news-inner-block .inner { padding: 20px; }
+	.news-inner-blocks .news-inner-block .inner a h3 { font-size: 28px; }
+	.news-inner-blocks .news-inner-block .inner p { font-size: 16px; }
+	.news-inner-blocks .news-inner-block .inner a.button { margin-top: 0; }
+	.news-desc.title-para-sec { padding: 0 0 40px; }
+	.service-detail-sec.news-detail-sec { margin-top: -100px; padding-bottom: 40px;}
+	.service-detail-sec.news-detail-sec .title-block { padding: 30px 20px;}
+	.news-detail-sec .news-detail-info-block { padding-left: 0;}
+	.news-detail-sec .news-detail-info-block p { font-size: 16px;}
+	.news-slider .owl-nav { top: auto; bottom: 20px; transform: none; justify-content: center;}
+	.news-slider.owl-carousel .owl-nav button.owl-prev {
+		left: 0;
+	}
+	.news-slider.owl-carousel .owl-nav button.owl-next {
+		right: 0;
+	}
+	.news-slider.owl-carousel .owl-nav button:not(:last-child) { margin-right: 10px;}
+	.news-slider.owl-carousel .owl-nav button.owl-prev, .news-slider.owl-carousel .owl-nav button.owl-next {
+		width: 40px; height: 40px; font-size: 30px;    padding: 10px 10px 15px 10px !important; background-color: var(--gold); color: var(--white); border: 1px solid transparent;
+	}
+	.news-slider.owl-carousel .owl-nav button.owl-prev:hover, .news-slider.owl-carousel .owl-nav button.owl-next:hover {
+		background-color: var(--bg-light);
+		color: var(--light-black);
+		border: 1px solid var(--light-black);
+	}
+	.top-head-blocks.contact-title { padding: 50px 0;}
+	.top-head-blocks.contact-title .top-head-details { text-align: center;}
+	.contact-link-row .contact-info .contact-icon { font-size: 40px;}
+	.contact-link-row .contact-data { font-size: 18px;}
+	.contact-sec .contact-blocks .contact-para { max-width: inherit; font-size: 16px;}
+	.news-slider { padding-bottom: 30px;}
+	.pop-contentbox { padding: 40px;}
+	.kilometer .km-details, .price .price-details {
+		padding: 10px 15px;
+	}
+} 
+
+/*==========================================================================================================*/
+@media only screen and (max-width: 767px) {
+
+	.x-centrum-offer-banner{
+		padding: 90px 0;
+	}
+
+	.x-centrum-offer-banner h1{
+		font-size: 42px;
+	}
+	
+	.default-grid.cols3 .col { width:50%; }
+	.tabnav { display:none; }
+	.tab-container { padding:0; border:none;}
+	.tab-data { margin:0 0 30px; }
+	.tab-data .tabnav { display:none; }
+	.tab-container .tabMobiletrigger { background:#f3f3f3; border:medium none; font-size:15px !important; text-transform:uppercase; margin:0 0 7px; padding:16px 54px 16px 16px; position:relative; cursor:pointer; font-weight:bold; }
+	.tabMobiletrigger:after { border-left:8px solid rgba(0, 0, 0, 0); border-right:8px solid rgba(0, 0, 0, 0); border-top:8px solid #848690; content:""; margin-top:-3px; position:absolute; right:19px; top:50%; }
+	.tabMobiletrigger:before { background:rgba(0, 0, 0, 0.08); content:""; height:100%; position:absolute; right:0; top:0; width:54px; z-index:1; }
+	.tabcontent { padding:15px 0; margin:0; }
+	.tabMobiletrigger.rotate:after { border-top-color:#272c2f; -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -ms-transform:rotate(180deg); transform:rotate(180deg); }
+	
+	.heading-listblock.cols2 .col, .dropcaps-box.cols2 .col { width:100%; }
+	h1, h2 { font-size:40px; }
+	.footer-blocks {    grid-gap: 20px 50px; }
+	.ftr-links { min-width: 250px; }
+	/* New CSS Start */
+	.view-our-stock-sec { padding: 30px 0; }
+	.view-our-stock-blocks { display: flex; flex-wrap: wrap; flex-direction: column-reverse; }
+	.hero-inner .hero-details h1 { font-size: 38px; }
+	.hero-inner .hero-details h1 br { display: none; }
+	.car-more-sec { grid-template-columns: repeat(1, 1fr); }
+	.car-more-sec .car-more-details .inner, .car-more-sec.left-text .car-more-details .inner { box-shadow: none; padding: 20px; }
+	.selection-stock-sec { padding-top: 20px; }
+	.selection-stock-sec .main-title h2 { font-size: 26px; margin-bottom: 20px; }
+	.stock-car-details h4.price { margin: 15px 0; }
+	.brands-sec ul.brands-inner li { padding: 0 30px; }
+	.brands-sec ul.brands-inner { padding: 30px; }
+	.latest-news-blocks { grid-template-columns: repeat(1, 1fr); }
+	.main-listing .selection-stock-blocks { grid-template-columns: repeat(2, 1fr); }
+	.top-head-blocks { display: flex; flex-wrap: wrap; flex-direction: column-reverse; }
+	.top-head-img { margin: 0 auto; }
+	.top-head-blocks { display: flex; flex-wrap: wrap; flex-direction: column-reverse; padding-bottom: 0; border-bottom: none; margin-bottom: 30px; }
+	.top-head-details { text-align: center; width: 100%; }
+	.top-head-details h1::after {	display: none; }
+	.top-head-details h1 { width: 100%; padding: 10px 0; border-top: 1px solid #bbbbbb; border-bottom: 1px solid #bbbbbb; }
+	.main-title h2 {font-size: 26px;}
+	.only-title .top-head-details h1 { padding: 0; border: none; }
+	.about-x-centrum-sec h2 { font-size: 38px; }
+	.title-para-sec h2, .ready-for-you-sec .main-title h2 { font-size: 28px; }
+	.ready-for-you-sec { padding-top: 20px; }
+	.title-para-sec {text-align: center; padding: 20px 0; }
+	.title-para-sec p {text-align: left;}
+	.title-para-sec h2 { font-size: 26px; margin-bottom: 20px; }
+	.sitemap-inner { padding: 20px 0; font-size: 20px; }
+	.categories h4 {font-size: 18px;}
+	/* New CSS End */
+
+	.service-detail-sec .title-block h2 { font-size: 32px;}
+	.service-detail-sec .title-block { margin-bottom: 30px; padding-left: 0; padding-right: 0;}
+	.service-detail-sec .service-detail-row { grid-template-columns: 1fr;}
+	.service-offer-sec .service-offer-row { grid-template-columns: 1fr;}
+	.service-offer-row .offer-title-block h3 { transform: none; writing-mode: inherit; font-size: 32px;}
+	.service-offer-slide .owl-nav { width: 100%; display: flex; right: 15px; justify-content: flex-end; bottom: 15px; }
+	.service-offer-slide .owl-nav button.owl-prev, .service-offer-slide .owl-nav button.owl-next { width: 30px; height: 30px; font-size: 15px;}
+	.specification-details, .tech-per-sec .specification-details, .options { grid-template-columns: repeat(1, 1fr); }
+	.specification-details .specify:nth-child(3) { grid-area: auto; grid-row: 1; }
+	.bovag { justify-content: flex-start; }
+	.specification-details table th, .specification-details table td { width: 50%; }
+	.product-details-inner { display: flex; flex-wrap: wrap; flex-direction: column-reverse; }
+	.product-details-inner .product-title-desc, .product-details-inner .product-details-block { width: 100%; max-width: 100%; }
+	.specification-details { grid-gap: 10px; }
+	.offer-banner-slide .owl-nav { top: auto; bottom: 0; transform: none; padding: 15px; justify-content: center; background: rgb(35,31,32); background: linear-gradient(180deg, rgba(35,31,32,0) 0%, rgb(0 0 0) 100%); }
+	.offer-banner-slide.owl-carousel .owl-nav button { padding: 0 10px !important; }
+	.offer-banner-slide .owl-nav button.owl-prev::before, .offer-banner-slide .owl-nav button.owl-next::before { color: var(--white); font-size: 26px; }
+	.service-offer-row .offer-title-block { min-width: 100%; padding: 30px 20px; }
+	.mb-70 { margin-bottom: 0; }
+	.service-detail-banner .detail-banner-row h1 { font-size: 50px; }
+	.contact-blocks .contact-details h2 { font-size: 40px; margin-bottom: 10px; }
+	.contact-blocks .contact-details h5, .contact-blocks .add-con-details p, .contact-blocks .add-con-details a { font-size: 20px; }
+	.contact-blocks .contact-details h4 { font-size: 28px; }
+	.contact-details-form h2 { font-size: 30px; }
+	.news-inner-blocks .news-inner-block .inner a h3 { font-size: 24px; margin-bottom: 10px; }
+	.news-desc.title-para-sec { padding: 0 0 20px; }
+
+	.news-slider .owl-stage-outer { padding: 50px 0;}
+	.contact-link-row { grid-gap: 10px; margin-bottom: 40px;}
+	.contact-link-row .contact-data { font-size: 15px;}
+}
+/*==========================================================================================================*/
+/* only iphone4 landscape & Potriat 300 by 480*/
+@media only screen and (max-width: 567px) {
+	
+	
+	.default-grid.cols3 .col, .default-grid.cols2 .col, .default-grid.cols4 .col { width:100%; }
+	table.res-table tr th { display:none; }
+	table.res-table tr td { display:block; position:relative; padding-left:50%; }
+	table.res-table td:before { content: attr(data-th) ": "; font-weight: bold; width: 50%; display:block; padding-right:10px; position:absolute; left:0; top:0; padding:10px 10px; } 
+	table.res-table { border-top:0; }	
+	#logo { width:200px; }
+	
+	.list-block.cols3 .col { width:100%; }
+	.image-block figure { width:100%; float:none; padding-right:0; }
+	.image-block.right-align figure { padding-left:0; }
+	h1, h2 { font-size:34px; }
+	.footer-blocks {grid-template-columns: repeat(1, 1fr);}
+	.ftr-links { min-width: 100%; }
+	#footer { padding: 30px 0; }
+	.footer-block .ftr-logo img {max-width: 250px;}
+	.header-contact a span, #header.sticky .header-contact a span { font-size: 0; padding: 0; }
+	.header-contact a i, #header.sticky .header-contact a i { margin-right: 10px; font-size: 18px; }
+	#header.sticky #logo { width: 180px; }
+	/* New CSS Start */
+	.search-block { flex-wrap: wrap; }
+	.search-block input, .search-block .button { width: 100%; }
+	.car-selection-filter { grid-template-columns: repeat(2, 1fr); }
+	.selection-stock-blocks { grid-template-columns: repeat(1, 1fr); }
+	.brands-sec ul.brands-inner {flex-wrap: wrap;}
+	.brands-sec ul.brands-inner li {width: 100%; padding: 30px 0;  border-bottom: 1px solid #ddd;}
+	.brands-sec ul.brands-inner li:last-child {border-bottom: none;}
+	.brands-sec ul.brands-inner li img {max-height: 100px;}
+	.brands-sec ul.brands-inner li::before {display: none;}
+	.ftr-links h4 { font-size: 24px; margin-bottom: 20px; }
+	.ftr-links { margin-top: 0; }
+	.inner-ftr { margin-bottom: 10px; }
+	.hero-inner .hero-details h1 { font-size: 34px; }
+	.hero-inner .hero-details h3 { font-size: 22px; }
+	.main-listing .selection-stock-blocks { grid-template-columns: repeat(1, 1fr); }
+	.main-title h2, .top-head-details h1 { font-size: 26px; }
+	.filter-reset a, .filter-reset h6, .pagination ul li span, .pagination ul li a { font-size: 14px; }
+	.number-of-vehicles-sec .main-title h2 { margin-bottom: 20px; }
+	.search-suggestion ul li a { padding: 4px 15px; font-size: 14px; }
+	.about-x-centrum-sec h2 { font-size: 28px; }
+	.title-para-sec { padding: 20px 0; }
+	.ready-for-you-sec .main-title h2 { font-size: 24px; }
+	.member-details h3 {
+		font-size: 20px;
+	}
+	.member-details span, .member-details a { font-size: 14px;}
+	.team-members .member {flex-wrap: wrap;}
+	.team-members .member figure, .team-members .member figure img, .team-members .member .member-details { width: 100%; }
+	.team-members { padding-bottom: 0; border-bottom: none;}
+	/* New CSS End */
+
+	.service-page-banner { min-height: 300px;}
+	.service-detail-sec .title-block h2 { font-size: 28px;}
+	.service-desc .service-info h4 { font-size: 20px;}
+	.service-offer-row .offer-title-block h3 { font-size: 24px;}
+	.product-details-block .inner { padding: 20px; }
+	.product-details-block .inner h2 { font-size: 30px; }
+	.product-details-block .inner li { font-size: 14px; }
+	.product-details-block .inner h4.price, .more-pro-details .main-title h2 { font-size: 28px; }
+	.product-details-block .inner .product-contact a { max-width: 100%; }
+	.product-title-desc h2 br { display: none; }
+	.product-title-desc h2 { font-size: 28px; }
+	.options-list ul { grid-template-columns: repeat(1, 1fr); }
+	.offer-page-banner .offer-bg-img { min-height: 300px; }
+	.custom-contact-form .form-block .form-row, .add-con-sec { grid-template-columns: repeat(1, 1fr); }
+	.service-page-banner.service-detail-banner { min-height: 300px; }
+	.service-detail-banner .detail-banner-row h1 { font-size: 38px; }
+	.service-detail-sec.service-detail-info-sec .title-block h2 { font-size: 30px; }
+	.contact-blocks .contact-details h2 { letter-spacing: 4px; }
+	.contact-blocks .contact-details h4 { font-size: 24px; }
+	.contact-blocks .contact-details h5, .contact-blocks .add-con-details p, .contact-blocks .add-con-details a { font-size: 18px; }
+	.contact-details-form { padding: 20px; }
+	.contact-details-form h2 { font-size: 24px; }
+	.custom-contact-form .contact-submit input { max-width: 100%; }
+	.quote-sec { padding: 30px 0; }
+	.quote-sec h2 { font-size: 24px; }
+	.service-detail-info-block .top-desc p { padding: 20px 0; }
+	.news-inner-blocks { grid-template-columns: repeat(1, 1fr); }
+	.service-detail-sec.news-detail-sec { margin-top: -40px; padding-bottom: 30px;}
+	.service-detail-sec.news-detail-sec .title-block { padding: 20px;}
+	.news-detail-sec .title-block .posted-date { font-size: 16px;}
+	.top-head-blocks.contact-title { padding: 40px 0;}
+	.contact-link-row { grid-template-columns: 1fr; grid-gap: 30px; margin-bottom: 40px;}
+	.contact-sec .contact-blocks .contact-para { font-size: 14px;}
+	.pop-contentbox { padding: 40px 20px; border-radius: 10px;}
+	.hero-img-sec { background-attachment: initial; padding-top: 100px; min-height: inherit; height: calc(100vh + 20px);}
+	.listing-sec .main-listing .tablenav-pages .page-numbers { font-size: 14px;}
+	.kilometer .km-details, .price .price-details { padding: 10px 15px; }
+}
+/*==========================================================================================================*/
+/* only iphone landscape 340 by 478*/
+@media only screen and (max-width: 480px) {
+
+	 .form-inline .form-group label, .form-inline .form-group .field-box { float:none; display:block; width:auto; }
+	 .form-inline .form-group label { padding: 0 0 5px; }
+	.form-inline .form-group label.blank { display:none; }
+	h1, h2 { font-size:30px; }
+	.team-members .member { grid-template-columns: 1fr; gap: 10px;}
+	.member-details {
+		padding: 0;
+	}
+}
+
+/*==========================================================================================================*/
+/* Retina css */ 
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+	.sprites, .sp-after:after, .sp-before:before { background-image:url(../images/bgi/sprites@2x.png);
+	-moz-background-size:237px 207px; -ms-background-size:237px 207px; -o-background-size:237px 207px; -webkit-background-size:237px 207px; background-size:237px 207px;}
+}*/
